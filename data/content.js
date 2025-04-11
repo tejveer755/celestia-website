@@ -40,13 +40,14 @@ const content = {
       registrationLink: "https://linktr.ee/celestiaeventregistration",
       events: [
         {
-          title: "Estate Empire",
+          title: "DESIGNATHON",
           description: (
             <>
-              Estate Empire is an immersive investment and bidding simulation.
-              Participants buy, develop, and trade virtual land in a simulated
-              map of Delhi. The game requires strategic decision-making, market
-              analysis, and careful risk management to maximize ROI.
+              Designathon 2025: Brand the Fiction is a creative 3-hour design
+              sprint where participants will bring a fictional brand to life
+              using branding and design tools. The challenge tests design
+              thinking, aesthetic sense, and storytelling skills under time
+              pressure.
               <ul>
                 <li className="flex flex-row items-center">
                   <span className="text-cyan-300 mr-3 mt-1">•</span>
@@ -71,11 +72,11 @@ const content = {
             </>
           ),
           detailsLink: "/details/0",
-          backgroundImage: "/estatebg.png",
-          graphic: "/estate_empire.png",
+          backgroundImage: "/bgdesignathon.png",
+          graphic: "/designathon.png",
         },
         {
-          title: "BlindCode ",
+          title: "BLINDCODE ",
           description: (
             <>
               Participants will be provided with a demo landing page which you
@@ -110,14 +111,13 @@ const content = {
           graphic: "/blindcode.png",
         },
         {
-          title: "Designathon",
+          title: "ESTATE EMPIRE",
           description: (
             <>
-              Designathon 2025: Brand the Fiction is a creative 3-hour design
-              sprint where participants will bring a fictional brand to life
-              using branding and design tools. The challenge tests design
-              thinking, aesthetic sense, and storytelling skills under time
-              pressure.
+              Estate Empire is an immersive investment and bidding simulation.
+              Participants buy, develop, and trade virtual land in a simulated
+              map of Delhi. The game requires strategic decision-making, market
+              analysis, and careful risk management to maximize ROI.
               <ul>
                 <li className="flex flex-row items-center">
                   <span className="text-cyan-300 mr-3 mt-1">•</span>
@@ -142,11 +142,13 @@ const content = {
             </>
           ),
           detailsLink: "/details/2",
-          backgroundImage: "/bgdesignathon.png",
-          graphic: "/designathon.png",
+          backgroundImage: "/estatebg.png",
+          graphic: "/estate_empire.png",
         },
+        
+       
         {
-          title: "Market Mania",
+          title: "MARKET MANIA",
           description: (
             <>
               Market Mania is a dynamic competition where participants are given
@@ -178,10 +180,10 @@ const content = {
           ),
           detailsLink: "/details/3",
           backgroundImage: "/marketmaniabg.png",
-          graphic: "/marektsticker.png",
+          graphic: "/marketsticker.png",
         },
         {
-          title: "Cosplay Carnival",
+          title: "COSPLAY CARNIVAL",
           description: (
             <>
               Cosplay Carnival 2025 is an exciting event where participants can
@@ -286,7 +288,7 @@ const content = {
         //blindcode
         {
           id: 1,
-          name: "BLIND CODE",
+          name: "BLINDCODE",
           tagline: "CELESTIA 1.0",
           date: "17 April 2025",
           registrationFee: "₹50",
@@ -565,17 +567,12 @@ THEME:
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      link: "#",
+      link: "https://www.instagram.com/nexverse_iitm/",
     },
     {
       name: "LinkedIn",
       icon: <FaLinkedin />,
-      link: "#",
-    },
-    {
-      name: "Email",
-      icon: <IoMdMail />,
-      link: "#",
+      link: "https://www.linkedin.com/in/geek-room-iitm/",
     },
   ],
 };
