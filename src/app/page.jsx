@@ -65,7 +65,8 @@ export default function Home() {
 
           <div className={`relative z-10 max-w-6xl mx-auto p-8 pt-0`}>
 
-            <h2 className="text-[2.6rem] text-center font-bold text-sky-200 mb-6">
+            <h2 className="text-5xl text-center font-bold text-sky-200 mb-6 ,
+            max-sm:text-3xl">
               Explore The Cosmic Convergence of Talent
             </h2>
 
